@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body{
+            font-family: 'Lobster', cursive;
+            color: whitesmoke;
+            margin: 0px;
+            padding: 0px;
+            background: url('images/re.jpg');
+            
+            height: 100%;
+            
+        }
+        .left{
+            display: inline-block;
+            /*border: 2px solid green;*/
+            position: absolute;
+            left: 35px;
+            top: 20px;
+        }
+        .left img{
+            display: block;
+            width: 155px ;
+            filter: invert(100%);
+        }
+        .left div{
+            text-align: center;
+            color: hotpink;
+        }
+        .center{
+            display: block;
+            width: 50%;
+            margin:90px auto;
+           /* border:2px solid red;*/
+            background-color:black;
+            font-size: 25px;
+            border-radius: 25px;
+        }
+        .right{
+            position: absolute;
+            right: 35px;
+            top: 20px;
+          display: inline-block;
+          /*  border: 2px solid yellow;*/
+        }
+        .second{
+            display: inline-block;
+        }
+        .second li{
+            display: inline-block;
+           
+        }
+        .second li a{
+            color:chartreuse;
+            text-decoration: none;
+            padding: 20px 20px;
+         
+        }
+        .second li a:hover,.second li a.active{
+            color: seagreen;
+            text-decoration: underline;
+        }
+        .btn{
+            font-family: 'Lobster', cursive;
+            color: rgb(194, 60, 60);
+            background-color: turquoise;
+            margin: 0px 10px;
+            padding: 4px 10px;
+           /* border: 2px solid violet;*/
+            border-radius: 15px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: rgb(88, 50, 131);
+        }
+        .log{
+            margin-top: 100px;
+            margin-left: 500px;
+            font-size: 20px;
+        }
+        .tn{
+            margin: auto;
+            display: block;
+            width: 10%;
+            margin-top: 20px;
+            font-size: 25px;
+
+        }
+        .f{
+            float: right;
+            margin-top: 30px;
+            color: red;
+        }
+        .b{
+            font-size: 35px;
+        }
+        input{
+            color:navy;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header class="head">
+        <div class="left">
+      <img src="images/food.jpg" alt="">
+      <div>Arbaaz Resort </div>
+        </div>
+        <div class="center">
+            <ul class="second">
+                <li> <a href="home.html" class="active">Home</a>  </li>
+                <li><a href="about.html" class="hom">About us</a> </li>
+                <li><a href="food.html" class="hom">Resort Photos </a></li>
+                <li><a href="contact.html" class="hom">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="log">
+        <h3 class="b">BOOK NOW</h3>
+        Name:    <input type="text"> <br>
+        Mobile No:<input type="text"><br>
+            No. of Rooms:<input type="number"><br>
+            Aadhar No:<input type="text">
+
+                    </div>
+                    
+                    <div class="tn">
+                        <button class="submitt">submit</button>
+                    </div>
+            <footer>
+                <div class="f">
+                    <strong>CREATED BY:ARBAAZ BAIG</strong>
+                </div>
+            </footer>
+    
+</body>
+</html>
