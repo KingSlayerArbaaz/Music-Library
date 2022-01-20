@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+body {
+  background-color: antiquewhite;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  /* font-family: "Bebas Neue", cursive; */
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 50px;
+  background-color: red;
+}
+nav ul li {
+  padding: 0 12px;
+}
+.img img {
+  width: 40px;
+  padding: 0 6px;
+}
+.img {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font: size 1.3rem;
+}
+.container {
+  min-height: 72vh;
+  background-color: black;
+  color: white;
+  
+font-family: 'Bebas Neue', cursive;
+  display: flex;
+  margin: 20px auto;
+  width: 70%;
+  border-radius: 15px;
+  padding: 35px;
+  background-image: url("11.jpg");
+}
+.bottom {
+  position: sticky;
+  height: 55px;
+  background-color: black;
+  bottom: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icons {
+  margin-top: 10px;
+}
+.icons i {
+  cursor: pointer;
+}
+#progressBar {
+  width: 80vw;
+  cursor: pointer;
+}
+/* .songItemcontainer{
+    /* margin-top: */
+
+.songitem {
+  display: flex;
+  height: 50px;
+  /* width:80%; */
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 35px;
+  /* background-color: white; */
+  /* color:black; */
+}
+.songitem img {
+  border-radius: 30px;
+  width: 43px;
+  margin: 0 23px;
+}
+.dock {
+  width: 50px;
+}
+.song {
+  /* margin: */
+  padding: 0 10px;
+  /* cursor:` pointer; */
+}
+.i {
+  cursor: pointer;
+}
+.imgg {
+  width: 90px;
+}
+.songinfo {
+  position: absolute;
+  left: 0;
+}
+.songinfo img {
+  opacity: 0;
+  transition: opacity 0.6s ease-in;
+}
+#footer {
+  /* margin-left: 93vh; */
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  
+@media screen and (max-width: 420px) {
+  body {
+    background-color: snow;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    min-height: 51vh;
+    margin: 30px 40px;
+    width: 61%;
+    border-radius: 14px;
+    padding: 35px;
+  }
+  .songitem {
+    margin: 0px -35px;
+  }
+  .bottom {
+    height: 90px;
+  }
+  .songinfo img {
+    position: absolute;
+    left: 0;
+  }
+  #footer {
+    /* margin-left: 93vh; */
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+  }
+}
+
